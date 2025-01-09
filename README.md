@@ -1,0 +1,3 @@
+# PHP Pass-by-Reference Gotcha with Nested Arrays
+
+This example demonstrates a common pitfall when using pass-by-reference in PHP with nested arrays.  The `increment_array` function aims to increment each element of an array. However, when applied to a nested array, it only increments the first-level elements, leaving the inner arrays unchanged. This behavior might not be immediately obvious to developers unfamiliar with PHP's reference handling.
